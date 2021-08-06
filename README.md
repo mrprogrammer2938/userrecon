@@ -16,7 +16,9 @@ git clone https://github.com/issamelferkh/userrecon
 
 cd userrecon
 
-bash userrecon.sh
+bash install.sh
+
+./userrecon.sh
 ```
 <br>
 

@@ -1,4 +1,4 @@
-# UserRecon v1.0
+# UserRecon v1.3.0
 <hr>
 
 Author: @linux_choice

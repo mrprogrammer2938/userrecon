@@ -1,9 +1,15 @@
 #!/bin/bash
-# UserRecon v1.0
+# UserRecon v1.3.0
 # Author: @linux_choice
 # https://github.com/thelinuxchoice/userrecon
 # Give me the credits if you use any part of this code, read the License.
-
+if [[ "$(id -u)" -ne 0 ]];
+then
+  echo "
+Please, Run This Programm as Root!
+"
+  exit 1
+fi
 trap 'printf "\n";partial;exit 1' 2
 
 banner() {

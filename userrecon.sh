@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # UserRecon v1.3.0
 # Author: @linux_choice
 # https://github.com/thelinuxchoice/userrecon
